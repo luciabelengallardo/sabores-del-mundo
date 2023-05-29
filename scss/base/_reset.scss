@@ -4,12 +4,31 @@ body{
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
+
 ul{
     list-style-type: none;
+    color: $color-primario;
+
+    a{
+    
+        display: inline-block;
+        text-decoration: none;
+    }
 }
 
-a{
+
+
+a:link{
     text-decoration: none;
-    display: inline-block;
+}
+
+a:active{
+    text-decoration: none;
+    color: $color-primario;
+}
+
+a:visited{
+    text-decoration: none;
+    color: $color-primario;
 }
 

@@ -30,11 +30,22 @@ body {
   font-family: 'Quattrocento Sans', sans-serif; }
 
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+  color: #c40233; }
+  ul a {
+    display: inline-block;
+    text-decoration: none; }
 
-a {
+a:link {
+  text-decoration: none; }
+
+a:active {
   text-decoration: none;
-  display: inline-block; }
+  color: #c40233; }
+
+a:visited {
+  text-decoration: none;
+  color: #c40233; }
 
 .btn {
   border: none;
@@ -48,5 +59,27 @@ a {
   transition: transform 100ms; }
   .btn:hover {
     transform: scale(1.1); }
+
+@media (max-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    nav ul {
+      padding-left: 0; } }
+@media (min-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: 0;
+    padding-left: 30px; }
+    nav img {
+      margin: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
