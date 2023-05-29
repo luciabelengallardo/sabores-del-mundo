@@ -1,8 +1,34 @@
-@import "../utils/variables";
 
 header{
     background-color: $color-secundario;
-    position: fixed;
     top: 0;
     border-top: 30px;
+    width: 100%;
+    
+}
+
+.logo {
+    width: 250px;
+    height: 60px;
+}
+
+nav {
+    @include caja-flex(space-between, center, nowrap);
+
+    ul{
+        display: flex;
+        padding: 0;
+
+        a{
+            padding: 10px;
+            font-size: 1.2rem;
+            text-shadow: 10px;
+        }
+
+        a:hover{
+            color: $color-primario;
+            transform: scale(1.1);
+            
+        }
+    }
 }
