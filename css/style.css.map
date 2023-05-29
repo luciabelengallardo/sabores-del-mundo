@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,MAAM;EACF,gBAAgB,ECED,yBAAyB",
-"sources": ["../scss/layout/_header.scss","../scss/utils/_variables.scss"],
+"mappings": "AAAA,MAAM;EACF,gBAAgB,ECED,yBAAyB;;ACH5C,IAAI;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,+BAA+B;;AAGhD,EAAE;EACE,eAAe,EAAE,IAAI;;AAGzB,CAAC;EACG,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,YAAY;;ACZzB,IAAI;EACA,MAAM,EAAE,IAAI;EACZ,aAAa,EAAC,GAAG;EACjB,OAAO,EAAE,WAAW;EACpB,MAAM,EAAE,OAAO;EACf,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAC,MAAM;EAChB,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,eAAe;EAC3B,UAAO;IACH,SAAS,EAAE,UAAU",
+"sources": ["../scss/layout/_header.scss","../scss/utils/_variables.scss","../scss/base/_reset.scss","../scss/components/_botones.scss"],
 "names": [],
 "file": "style.css"
 }
