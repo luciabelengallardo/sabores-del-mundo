@@ -31,21 +31,23 @@ body {
 
 ul {
   list-style-type: none;
-  color: #c40233; }
+  text-decoration: none; }
   ul a {
+    color: black;
     display: inline-block;
-    text-decoration: none; }
+    text-decoration: none;
+    text-shadow: 1px 3px 3px rgba(144, 141, 141, 0.73); }
 
 a:link {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #c40233; }
 
 a:active {
   text-decoration: none;
-  color: #c40233; }
+  color: rgba(245, 245, 245, 0.97); }
 
 a:visited {
-  text-decoration: none;
-  color: #c40233; }
+  text-decoration: none; }
 
 .btn {
   border: none;

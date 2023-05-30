@@ -7,12 +7,14 @@ body{
 
 ul{
     list-style-type: none;
-    color: $color-primario;
+    text-decoration: none;
+    
 
     a{
-    
+        color: black;
         display: inline-block;
         text-decoration: none;
+        text-shadow: 1px 3px 3px rgba(144, 141, 141, 0.73);
     }
 }
 
@@ -20,15 +22,15 @@ ul{
 
 a:link{
     text-decoration: none;
+    color: $color-primario;
 }
 
 a:active{
     text-decoration: none;
-    color: $color-primario;
+    color: $color-secundario;
 }
 
 a:visited{
     text-decoration: none;
-    color: $color-primario;
 }
 
