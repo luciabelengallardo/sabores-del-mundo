@@ -1,4 +1,19 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 header {
   background-color: #c40233; }
+
+.footer_contenedor {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+  .footer_contenedor .footer_copyright {
+    background-color: #c40233;
+    color: rgba(245, 245, 245, 0.97); }
+
+header {
+  background-color: gray; }
 
 /*# sourceMappingURL=style.css.map */
