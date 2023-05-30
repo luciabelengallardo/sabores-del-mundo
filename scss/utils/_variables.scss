@@ -2,3 +2,43 @@ $color-primario: rgba(196, 2, 51, 1);
 $color-secundario: rgba(245, 245, 245, 0.97);
 
 
+
+
+@mixin caja-flex($principal, $cruzado, $wrap){
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+}
+
+// Pantallas Extra anchas
+
+@media(min-width: 1366px){
+     .footer_bg{
+        @include caja-flex(space-around,center ,nowrap );
+        margin-bottom: .6rem;
+        .footer_redes{
+            width: 50%;
+            
+        }
+        .footer_form{
+            width: 50%;
+        }
+        
+    }
+}
+
+// Pantallas pequeñas
+
+@media(max-width:420px){
+
+    .form_inputs{
+        @include caja-flex(space-around,center ,wrap);
+        flex-direction: column;
+        margin: .6rem;
+        .input_footer{
+            margin-bottom: 1rem;
+        }
+        
+    }
+}
