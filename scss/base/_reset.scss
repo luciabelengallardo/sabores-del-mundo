@@ -19,15 +19,9 @@ ul{
 }
 
 
-
-a:link{
-    text-decoration: none;
-    color: $color-primario;
-}
-
 a:active{
     text-decoration: none;
-    color: $color-secundario;
+    color: $color-primario;
 }
 
 a:visited{

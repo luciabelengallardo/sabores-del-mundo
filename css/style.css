@@ -1,12 +1,13 @@
 header {
   background-color: rgba(245, 245, 245, 0.97);
   top: 0;
-  border-top: 30px;
-  width: 100%; }
+  width: 94%;
+  margin: auto; }
 
 .logo {
   width: 250px;
-  height: 60px; }
+  height: 60px;
+  padding: 5px; }
 
 nav {
   display: flex;
@@ -17,7 +18,7 @@ nav {
     display: flex;
     padding: 0; }
     nav ul a {
-      padding: 10px;
+      padding: 10px 30px;
       font-size: 1.2rem;
       text-shadow: 10px; }
     nav ul a:hover {
@@ -38,13 +39,9 @@ ul {
     text-decoration: none;
     text-shadow: 1px 3px 3px rgba(144, 141, 141, 0.73); }
 
-a:link {
-  text-decoration: none;
-  color: #c40233; }
-
 a:active {
   text-decoration: none;
-  color: rgba(245, 245, 245, 0.97); }
+  color: #c40233; }
 
 a:visited {
   text-decoration: none; }
