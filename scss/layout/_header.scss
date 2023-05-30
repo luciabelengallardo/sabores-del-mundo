@@ -1,4 +1,36 @@
-header {
-    background-color: $color-primario;
+
+header{
+    background-color: $color-secundario;
+    top: 0;
+    width: 94%;
+    margin: auto;
     
+}
+
+.logo {
+    width: 250px;
+    height: 60px;
+    padding: 5px;
+}
+
+nav {
+    @include caja-flex(space-between, center, nowrap);
+
+    ul{
+        display: flex;
+        padding: 0;
+
+
+        a{
+            padding: 10px 30px;
+            font-size: 1.2rem;
+            text-shadow: 10px;
+        }
+
+        a:hover{
+            color: $color-primario;
+            transform: scale(1.1);
+            
+        }
+    }
 }

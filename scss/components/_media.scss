@@ -1,0 +1,60 @@
+// Pantallas pequeñas
+
+@media(max-width:420px){
+
+    .form_inputs{
+        @include caja-flex(space-around,center ,wrap);
+        flex-direction: column;
+        margin: .6rem;
+        .input_footer{
+            margin-bottom: 1rem;
+        }
+        
+    }
+}
+
+// pantallas medianas
+
+@media(max-width:992px){
+    nav{
+        @include caja-flex(space-around, center, wrap);
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+        ul{
+            padding-left: 0;
+        }
+    }
+}
+
+// pantallas grandes
+
+@media(min-width:992px){
+    nav{
+        @include caja-flex(space-between, center, nowrap);
+        width:90%;
+        margin: 0;
+        padding-left: 30px;
+
+        img{
+            margin: 10px;
+        }
+    }
+}
+
+// Pantallas Extra anchas
+
+@media(min-width: 1366px){
+    .footer_bg{
+       @include caja-flex(space-around,center ,nowrap );
+       margin-bottom: .6rem;
+       .footer_redes{
+           width: 50%;
+           
+       }
+       .footer_form{
+           width: 50%;
+       }
+       
+   }
+}
