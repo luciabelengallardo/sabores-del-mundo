@@ -1,0 +1,152 @@
+//////////////// background
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation: slide 10s ease infinite;
+  background: linear-gradient(-60deg, rgb(100, 34, 176), $color-primario, rgb(100, 34, 176));
+  background-size: 400% 400%;
+  bottom:0;
+  left:-60%;
+  position: fixed;
+  right:-60%;
+  top:0;
+  z-index: -1;
+  
+}
+
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:5s;
+}
+
+.bg3 {
+    animation-duration:5s;
+}
+
+
+@keyframes slide{
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  
+}
+
+///////////// formulario
+
+.formulario_contacto{
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+
+input{
+    background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: $color-primario; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: $color-primario; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+label{
+    display: block;
+    float: center;
+}
+
+.boton_enviar{
+    
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ab4493; 
+	border-color: #ab4493; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+    
+
+}
+
+span{
+    color: #ab4493;
+}
+
+.aviso{
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+::-webkit-input-placeholder{
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formulario{
+    input:focus{
+        outline:0;
+	    border: 1px solid #ab4493;
+    }
+
+    textarea:focus{
+        outline:0;
+	    border: 1px solid #ab4493;
+    }
+
+    h3{
+        font-size: 16px; 
+        padding-bottom: 30px;
+        color: #0e0e0e;
+    }
+
+    p{
+        font-size: 14px; 
+        color: #0e0e0e;
+    }
+
+    h1{
+        font-size: 39px;  
+        text-align: letf; 
+        padding-bottom: 20px; 
+        color: #ab4493;
+    }
+}
+

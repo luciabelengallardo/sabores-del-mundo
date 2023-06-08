@@ -30,6 +30,49 @@
         </nav>
     </header>
     <main>
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+
+        <div class="formulario_contacto">
+            <div class="formulario">
+                <h1>CONTACTO</h1>
+                <h3>Escríbenos y déjanos tu opinion o consulta</h3>
+                <form action="https://formsubmit.co/luciagallardoherrera@gmail.com" method="post">
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+                    <input class="boton_enviar" type="submit" value="Enviar" name="enviar_formulario" id="enviar">
+                    <p class="aviso">
+                        <span class="obligatorio">*</span>Los campos son obligatorios.
+                    </p>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/contacto.html">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </div>
+
         
     </main>
     <footer class="footer_contenedor">
